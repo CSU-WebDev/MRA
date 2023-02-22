@@ -1,17 +1,16 @@
 import React from "react";
+import Button from 'react-bootstrap/Button';
 
 class Header extends React.Component{
     render(){
-        return(
-            
-            <header className="App-header">        
-                <p>
-                Edit <code>src/App.js</code> and save to reload.
-                </p>
-                <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-                    {this.props.linkText}
-                </a>
-        </header>
+        return(            
+            <header className="App-header">
+                    <form action="/action_page.php">
+                    <label for="city">City: </label>
+                    <input type="text" id="city" name="city"></input>
+                    <Button variant="success">Submit</Button>{' '}
+                    </form>
+            </header>
         )
     }
 }

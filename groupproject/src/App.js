@@ -1,11 +1,13 @@
 import Header from "./components/Header";
-import Body from "./components/Body";
+import Footer from "./components/Footer";
+import Line from "./components/Line";
 
 function App() {
   return (
     <div className="App">
+      <Line />
       <Header />
-      <Body />
+      <Footer />
     </div>
   );
 }
