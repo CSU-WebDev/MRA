@@ -1,9 +1,21 @@
 import React from "react";
 import Button from 'react-bootstrap/Button';
 import Card from "./Card";
+import axios from 'axios';
 
-class Header extends React.Component{
-    render(){
+function Header(){
+    function fetchdata(){
+        axios.get('/user?ID=12345')
+    .then(function (response) {
+        // handle success
+        console.log(response);
+    })
+    .catch(function (error) {
+        // handle error
+        console.log(error);
+    })
+    
+    }
         return(            
             <header className="App-header">
                 <Card />
@@ -15,6 +27,5 @@ class Header extends React.Component{
             </header>
         )
     }
-}
 
 export default Header
