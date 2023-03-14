@@ -1042,11 +1042,14 @@ function Header(){
             })
     }
     return(            
-        <header className="App-header">                
-            <label for="city">City / State: </label>
-            <input ref={inputRef} type="text" id="city" name="city"></input>
-            <Button onClick={fetchdata} variant="success">Submit</Button>{' '}
-            <Card weatherData={weather}/>
+        <header className="App-header">  
+          <div class="d-flex justify-content-center">              
+              <label for="city">City / State: </label>
+              <input ref={inputRef} type="text" id="city" name="city" placeholder="Example: 31907"></input>
+              <Button onClick={fetchdata} variant="success">Submit</Button>{' '}
+          </div>
+          <br />
+          <Card weatherData={weather}/>
         </header>
     )
 }
