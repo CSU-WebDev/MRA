@@ -12,7 +12,7 @@ function Display(props) {
       //cards.push(<><h1>{weatherData.hours[i].temF} </h1>..... card info html</>)
       rows.push(
         <>
-          <h3>weatherData.hours[i].Time</h3>
+          <h3>{weatherData.hours[i].time}</h3>
           <li>Temperaure: {weatherData.hours[i].tempF}</li>
           <li>Wind: {weatherData.hours[i].wind}</li>
           <li>Rain: {weatherData.hours[i].precip}</li>
@@ -25,7 +25,7 @@ function Display(props) {
           // bg={variant.toLowerCase()}
           // key={variant}
           // text={variant.toLowerCase() === 'light' ? 'dark' : 'white'}
-          style={{ width: '18rem' }}
+          style={{ width: '18rem', color:"black" }}
           className="mb-2"
 
         >
