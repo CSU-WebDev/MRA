@@ -11,7 +11,7 @@ function Line() {
           <Nav.Link id="footer" href="#home">Home</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link id="footer" href="#info">Contact</Nav.Link>
+          <Nav.Link id="footer" href="#info">Group Members</Nav.Link>
         </Nav.Item >
         <Nav.Item>
         <Nav.Link id="footer" onClick={() => { localStorage.setItem('theme', localStorage.getItem('theme') === 'dark' ? 'light' : 'dark'); window.location.reload();}}> Change Mode </Nav.Link>

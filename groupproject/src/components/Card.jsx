@@ -20,12 +20,14 @@ function Display(props) {
         </>
       )
     }
+    {['Warning']
+    .map((variant) =>(
     cards.push(
       <Card
-          // bg={variant.toLowerCase()}
+          bg={variant.toLowerCase()}
           // key={variant}
           // text={variant.toLowerCase() === 'light' ? 'dark' : 'white'}
-          style={{ width: '18rem', color:"black" }}
+          style={{ width: '50rem', color:"black" }}
           className="mb-2"
 
         >
@@ -45,7 +47,7 @@ function Display(props) {
           
       </Card>
       
-    )
+    )))}
     
   }
   // if weatherdata and WD.forecast
