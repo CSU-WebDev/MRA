@@ -4,7 +4,7 @@ function Display(props) {
   const weatherData = props.weatherData;
 
   let cards = []
-  if(weatherData && weatherData.current){
+  if(weatherData){
     cards.push(
       <Card
           // bg={variant.toLowerCase()}
@@ -13,11 +13,11 @@ function Display(props) {
           style={{ width: '18rem' }}
           className="mb-2"
         >
-          <Card.Header>{weatherData.location.name} {weatherData.location.region}</Card.Header>
+          <Card.Header>{weatherData.location}</Card.Header>
           <Card.Body>
-            <Card.Title> Wheather Information </Card.Title>
+            <Card.Title> Weather Information </Card.Title>
             <Card.Text>
-              The wheater condition for this city is
+              The weather condition for this city is
             </Card.Text>
           </Card.Body>
         </Card>
