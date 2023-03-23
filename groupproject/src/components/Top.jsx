@@ -2,7 +2,7 @@ import React from "react";
 import Nav from 'react-bootstrap/Nav';
 // import Button from 'react-bootstrap/Button';
 
-function Line() {
+function Top() {
   return(
     <div id="footer">
         <Nav id="footer" className="justify-content-center" activeKey="/home">
@@ -21,4 +21,4 @@ function Line() {
   )
 }
   
-  export default Line;
+  export default Top;

@@ -6,7 +6,7 @@ import { useRef } from 'react';
 // remove once API call is working...
 
 
-function Header(){
+function Content(){
     const [weather, setWeather] = useState()
     const inputRef = useRef(null);
     function fetchdata(){        
@@ -31,4 +31,4 @@ function Header(){
     )
 }
 
-export default Header
+export default Content
