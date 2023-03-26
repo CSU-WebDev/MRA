@@ -1,0 +1,14 @@
+.customCardList{
+    color: pink;
+    /* padding: 5px; */
+
+}
+
+.scrolls {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 50vh;
+    white-space:nowrap;
+    margin: 50px;
+}
+

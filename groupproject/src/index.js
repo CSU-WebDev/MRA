@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Spinner from 'react-bootstrap/Spinner';
-//import './sass/App.scss';
+import './sass/App.scss';
+import './sass/Card.scss';
+import './sass/CardList.css';
 import App from './App';
 
 const LightTheme = React.lazy(() => import('./components/LightTheme'));

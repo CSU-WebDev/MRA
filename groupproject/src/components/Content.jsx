@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import Button from 'react-bootstrap/Button';
-import Card from "./Card";
+import CardList from "./CardList";
 import axios from 'axios';
 import { useRef } from 'react';
 // remove once API call is working...
@@ -26,9 +26,10 @@ function Content(){
               <Button onClick={fetchdata}  variant="warning">Submit</Button>{' '}
           </div>
           <br />
-          <Card weatherData={weather}/>
+          {/* <h1>{weather.location}</h1> */}
+          <CardList weatherData={weather}/>
         </header>
     )
 }
 
-export default Content
+export default Content;
