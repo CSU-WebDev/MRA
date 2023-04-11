@@ -11,16 +11,6 @@ function CardList(props){
                 <Card hourData = {hour}/>
             )
         );
-        // weatherData.hours.map(hour => {
-        //     cards.push(
-        //         <Card data={hour}/>
-                
-        //     )
-        //   }
-        // )
-        
-        
-    }
 
     return(
         
