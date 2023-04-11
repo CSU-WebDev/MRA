@@ -11,7 +11,7 @@ function CardList(props){
                 <Card hourData = {hour}/>
             )
         );
-
+            }
     return(
         
         <CardGroup className="customCardList scrolls">{cards}</CardGroup>
