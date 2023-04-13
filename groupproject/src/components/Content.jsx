@@ -3,7 +3,6 @@ import Button from 'react-bootstrap/Button';
 import CardList from "./CardList";
 import axios from 'axios';
 import { useRef } from 'react';
-// remove once API call is working...
 
 
 function Content(){
@@ -14,19 +13,17 @@ function Content(){
             .then(function (response) {
                 setWeather(response.data)
             }).catch(function (error) {
-                console.log("error")
-                console.log(error);
+                console.warn("error");
             })
     }
     return(            
         <header className="App-header">  
           <div class="d-flex justify-content-center">              
-              <label for="city">City / State: </label>
+              <label for="city">Zip Code : </label>
               <input ref={inputRef} type="text" id="city" name="city" placeholder="Example: 31907"></input>
-              <Button onClick={fetchdata}  variant="warning">Submit</Button>{' '}
+              <Button onClick={fetchdata}  variant="warning">Submit</Button>
           </div>
           <br />
-          {/* <h1>{weather.location}</h1> */}
           <CardList weatherData={weather}/>
         </header>
     )
