@@ -18,7 +18,7 @@ function Content(){
     }
     return(            
         <header className="App-header">  
-          <div class="d-flex justify-content-center">              
+          <div className="d-flex justify-content-center">              
               <label for="city">Zip Code : </label>
               <input ref={inputRef} type="text" id="city" name="city" placeholder="Example: 31907"></input>
               <Button onClick={fetchdata}  variant="warning">Submit</Button>

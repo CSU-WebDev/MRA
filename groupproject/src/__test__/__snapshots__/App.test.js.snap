@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders learn react link 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <div
+      id="footer"
+    >
+      <div
+        class="justify-content-center nav"
+        id="footer"
+      >
+        <h1>
+           Weather Info
+        </h1>
+        <div
+          class="nav-item"
+        >
+          <a
+            class="nav-link"
+            data-rr-ui-event-key="#home"
+            href="#home"
+            id="footer"
+          >
+            Home
+          </a>
+        </div>
+        <div
+          class="nav-item"
+        >
+          <a
+            class="nav-link"
+            data-rr-ui-event-key="#info"
+            href="#info"
+            id="footer"
+          >
+            Team
+          </a>
+        </div>
+        <div
+          class="nav-item"
+        >
+          <a
+            class="nav-link"
+            href="#"
+            id="footer"
+            role="button"
+            tabindex="0"
+          >
+             Change Mode 
+          </a>
+        </div>
+      </div>
+    </div>
+    <header
+      class="App-header"
+    >
+      <div
+        class="d-flex justify-content-center"
+      >
+        <label
+          for="city"
+        >
+          Zip Code : 
+        </label>
+        <input
+          id="city"
+          name="city"
+          placeholder="Example: 31907"
+          type="text"
+        />
+        <button
+          class="btn btn-warning"
+          type="button"
+        >
+          Submit
+        </button>
+      </div>
+      <br />
+      <div
+        class="customCardList scrolls card-group"
+      />
+    </header>
+    <div
+      id="footer"
+    >
+      This is a group project by :
+      <p
+        id="footer"
+      >
+        Adeola Ogundipe
+      </p>
+      <p
+        id="footer"
+      >
+        Raj Kotak
+      </p>
+      <p
+        id="footer"
+      >
+        Mckenna Koetitz
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
