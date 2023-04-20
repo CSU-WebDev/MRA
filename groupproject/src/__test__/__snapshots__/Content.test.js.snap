@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChecksTextBoxWithLabel changes after input 1`] = `
+<DocumentFragment>
+  <header
+    class="App-header"
+  >
+    <div
+      class="d-flex justify-content-center"
+    >
+      <label
+        for="city"
+      >
+        Zip Code : 
+      </label>
+      <input
+        id="city"
+        name="city"
+        placeholder="Example: 31907"
+        type="text"
+      />
+      <button
+        class="btn btn-warning"
+        type="button"
+      >
+        Submit
+      </button>
+    </div>
+    <br />
+    <div
+      class="customCardList scrolls card-group"
+    />
+  </header>
+</DocumentFragment>
+`;
