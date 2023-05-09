@@ -15,7 +15,6 @@ exports[`ChecksTextBoxWithLabel changes after input 1`] = `
       </label>
       <input
         id="city"
-        name="city"
         placeholder="Example: 31907"
         type="text"
       />

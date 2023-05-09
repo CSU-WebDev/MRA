@@ -6,11 +6,10 @@ exports[`renders learn react link 1`] = `
     class="App"
   >
     <div
-      id="footer"
+      id="Nav"
     >
       <div
         class="justify-content-center nav"
-        id="footer"
       >
         <h1>
            Weather Info
@@ -20,9 +19,9 @@ exports[`renders learn react link 1`] = `
         >
           <a
             class="nav-link"
-            data-rr-ui-event-key="#home"
-            href="#home"
-            id="footer"
+            data-rr-ui-event-key="#App-header"
+            href="#App-header"
+            id="Nav"
           >
             Home
           </a>
@@ -32,9 +31,9 @@ exports[`renders learn react link 1`] = `
         >
           <a
             class="nav-link"
-            data-rr-ui-event-key="#info"
-            href="#info"
-            id="footer"
+            data-rr-ui-event-key="#footer"
+            href="#footer"
+            id="Nav"
           >
             Team
           </a>
@@ -45,7 +44,7 @@ exports[`renders learn react link 1`] = `
           <a
             class="nav-link"
             href="#"
-            id="footer"
+            id="Nav"
             role="button"
             tabindex="0"
           >
@@ -67,7 +66,6 @@ exports[`renders learn react link 1`] = `
         </label>
         <input
           id="city"
-          name="city"
           placeholder="Example: 31907"
           type="text"
         />
@@ -86,6 +84,11 @@ exports[`renders learn react link 1`] = `
     <div
       id="footer"
     >
+      <p
+        id="footer"
+      >
+        MRA © May 2023 
+      </p>
       This is a group project by :
       <p
         id="footer"

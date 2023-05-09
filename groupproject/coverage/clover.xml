@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1682031794858" clover="3.2.0">
-  <project timestamp="1682031794858" name="All files">
-    <metrics statements="29" coveredstatements="11" conditionals="12" coveredconditionals="1" methods="16" coveredmethods="5" elements="57" coveredelements="17" complexity="0" loc="29" ncloc="29" packages="2" files="9" classes="9"/>
+<coverage generated="1683665671205" clover="3.2.0">
+  <project timestamp="1683665671205" name="All files">
+    <metrics statements="30" coveredstatements="12" conditionals="12" coveredconditionals="1" methods="16" coveredmethods="5" elements="58" coveredelements="18" complexity="0" loc="30" ncloc="30" packages="2" files="9" classes="9"/>
     <package name="src">
       <metrics statements="10" coveredstatements="2" conditionals="8" coveredconditionals="0" methods="4" coveredmethods="1"/>
       <file name="App.js" path="/workspace/MRA_frontend/groupproject/src/App.js">
@@ -22,7 +22,7 @@
       </file>
     </package>
     <package name="src.components">
-      <metrics statements="19" coveredstatements="9" conditionals="4" coveredconditionals="1" methods="12" coveredmethods="4"/>
+      <metrics statements="20" coveredstatements="10" conditionals="4" coveredconditionals="1" methods="12" coveredmethods="4"/>
       <file name="Card.jsx" path="/workspace/MRA_frontend/groupproject/src/components/Card.jsx">
         <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="4" count="0" type="stmt"/>
@@ -51,8 +51,9 @@
         <line num="4" count="0" type="stmt"/>
       </file>
       <file name="Footer.jsx" path="/workspace/MRA_frontend/groupproject/src/components/Footer.jsx">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="1" type="stmt"/>
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
       </file>
       <file name="LightTheme.js" path="/workspace/MRA_frontend/groupproject/src/components/LightTheme.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>

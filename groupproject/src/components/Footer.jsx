@@ -1,7 +1,10 @@
 import React from "react";
+
 function Footer() {
+    const currentDate = new Date().toLocaleString('default', { month: 'long', year: "numeric" });
     return (
         <div id="footer">
+            <p id="footer">MRA &copy; {currentDate} </p>
             This is a group project by :           
             <p id="footer">Adeola Ogundipe</p> 
             <p id="footer">Raj Kotak</p> 
@@ -11,3 +14,5 @@ function Footer() {
 }
 
 export default Footer;
+
+   
