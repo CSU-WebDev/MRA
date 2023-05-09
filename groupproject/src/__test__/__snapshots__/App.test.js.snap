@@ -19,8 +19,8 @@ exports[`renders learn react link 1`] = `
         >
           <a
             class="nav-link"
-            data-rr-ui-event-key="#App-header"
-            href="#App-header"
+            data-rr-ui-event-key="#home"
+            href="#home"
             id="Nav"
           >
             Home
@@ -71,6 +71,7 @@ exports[`renders learn react link 1`] = `
         />
         <button
           class="btn btn-warning"
+          id="submit"
           type="button"
         >
           Submit
@@ -89,7 +90,11 @@ exports[`renders learn react link 1`] = `
       >
         MRA © May 2023 
       </p>
-      This is a group project by :
+      <p
+        id="footer"
+      >
+        This is a group project by : 
+      </p>
       <p
         id="footer"
       >

@@ -21,7 +21,7 @@ function Content(){
           <div className="d-flex justify-content-center">              
               <label for="city">Zip Code : </label>
               <input ref={inputRef} type="text" id="city" placeholder="Example: 31907"></input>
-              <Button onClick={fetchdata}  variant="warning">Submit</Button>
+              <Button onClick={fetchdata} id="submit"  variant="warning">Submit</Button>
               
           </div>
           <br />

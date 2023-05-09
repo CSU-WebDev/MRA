@@ -4,10 +4,10 @@ describe('Navigation Bar', () => {
     })
 
     it('should display the text "Zip Code" and a text field', () => {
-        cy.get('#App-header').within(() => {
+        cy.get('.App-header').within(() => {
             cy.get('input[id="city"]')
                 .should('have.attr', 'placeholder', 'Example: 31907');
-            cy.get('button[type="submit"]').contains('Submit');
+            cy.get('Button[id="submit"]').contains('Submit');
         })
     })
 })

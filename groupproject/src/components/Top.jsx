@@ -8,7 +8,7 @@ function Header() {
         <h1> Weather Info</h1>
         
         <Nav.Item>
-          <Nav.Link id="Nav" href="#App-header">Home</Nav.Link>
+          <Nav.Link id="Nav" href="#home">Home</Nav.Link>
         </Nav.Item>
 
         <Nav.Item>
